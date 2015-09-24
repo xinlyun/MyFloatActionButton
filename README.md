@@ -41,10 +41,10 @@ MyFloatActionMenu
 
 	mfam_width ：菜单宽度（高度）
 	
-        mfam_posi  ：所属位置，属性有	
-	 (left_top,left_bottom,right_top,rigth_bottom)这四个
+	mfam_posi  ：所属位置，属性有	
+		 (left_top,left_bottom,right_top,rigth_bottom)这四个
 	 
-        mfam_icon  ：主按钮图标
+	mfam_icon  ：主按钮图标
 
 MyFloatActionButton
 可添加的属性包括：
@@ -73,3 +73,5 @@ int no :是响应对应FloatButton的位置
 	1）版本初期内容不完善，连注释基本都没有;
 	
 	2）Menu及Button加载按钮图标时需要对图片进行压缩，请量力而行，不要放太大的图标。 
+	
+	3)目前应该只支持4.0以上系统，因为圆形图标的绘制使用的是4.0以上的方法
