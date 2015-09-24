@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fabs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <com.lin.myfloatactionbtn.MyFloatActionMenu
+        android:id="@+id/id_mfam1"
+        android:layout_width="wrap_content"
+        fabs:mfam_width="400dp"
+        fabs:mfam_posi="left_top"
+        fabs:mfam_icon="@drawable/ic_fab_star"
+        android:layout_height="wrap_content">
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+    </com.lin.myfloatactionbtn.MyFloatActionMenu>
+
+    <com.lin.myfloatactionbtn.MyFloatActionMenu
+        android:id="@+id/id_mfam2"
+        android:layout_width="wrap_content"
+        fabs:mfam_width="400dp"
+        fabs:mfam_posi="right_bottom"
+        android:layout_marginTop="300dp"
+        fabs:mfam_icon="@drawable/ic_fab_star"
+        android:layout_height="wrap_content">
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+
+        <com.lin.myfloatactionbtn.MyFloatActionButton
+            android:layout_width="wrap_content"
+            fabs:cir_icon="@drawable/jietu"
+            android:layout_height="wrap_content" />
+    </com.lin.myfloatactionbtn.MyFloatActionMenu>
+
+</RelativeLayout>
