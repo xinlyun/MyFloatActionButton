@@ -5,7 +5,7 @@
 代码及实现方案请自行解析，简述用法：
 在布局文件中配置
 
- <com.lin.myfloatactionbtn.MyFloatActionMenu
+    <com.lin.myfloatactionbtn.MyFloatActionMenu
         android:id="@+id/id_mfam1"
         android:layout_width="wrap_content"
         fabs:mfam_width="400dp"
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             fabs:cir_icon="@drawable/jietu"
             android:layout_height="wrap_content" />
-  </com.lin.myfloatactionbtn.MyFloatActionMenu>
+    </com.lin.myfloatactionbtn.MyFloatActionMenu>
 需先在主视图中添加属性：
     xmlns:fabs="http://schemas.android.com/apk/res-auto"
 目前仅至此添加4个Button，请主动配置四个，不能多不能少。
